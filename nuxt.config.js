@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    { src: '~/plugins/logger.js', ssr: true }
+  ],
   /*
   ** Headers of the page
   */
